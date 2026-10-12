@@ -1,0 +1,12 @@
+flowchart LR
+    A[Customer submits return online] --> B[System validates Order ID]
+    B --> C[Customer selects reason]
+    C --> D[System generates refund reference]
+    D --> E[Confirmation emailed to customer]
+    D --> F[Warehouse queue notified with reason]
+    F --> G[Customer ships item, Warehouse inspects]
+    G --> H[Finance processes refund, status updated]
+    H --> I[Dashboard updates by category/region/reason]
+
+follow the link below to open the lucid chart diagram.
+https://lucid.app/lucidchart/8be51a2e-646c-49d4-bf75-73882ea3cbca/edit?view_items=F1ov-RR9aEba&page=page1&invitationId=inv_b85949b4-3af3-420e-9ad1-8c1d8501aa52

@@ -1,0 +1,5 @@
+region,orders,returned,return_rate_pct
+West,1342,152,11.33
+East,1284,133,10.36
+South,1242,125,10.06
+Central,1786,179,10.02
